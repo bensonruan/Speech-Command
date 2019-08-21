@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Speech Command</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style/audio.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="https://unpkg.com/@tensorflow/tfjs"></script>
+    <script src="https://unpkg.com/@tensorflow-models/speech-commands"></script>
+  </head>
+  <body>
+        <main>
+            <div class="container mt-1">
+                <div class="row col-12 col-md-12 col-xl-12 align-top">
+                    <div class="col-md-3 col-6 form-control">
+                            <label class="form-switch">
+                            <input type="checkbox" id="audio-switch">
+                            <i></i> Microphone</label>      
+                    </div>
+                    <div class="col-md-4 col-6 mt-2">
+                            More on  <a href="https://bensonruan.com" target="_blank">bensonruan.com</a>    
+                    </div>  
+                </div> 
+
+                <div class="row mt-2">
+                    <div class="col-12">
+                            <div class="progress progress-bar progress-bar-striped progress-bar-animated col-md-10 col-sm-8 col-8 d-none">Loading Model</div>
+                            <div id="candidate-words">                           
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    <script src="js/speech_command.js"></script>
+  </body>
+</html>
