@@ -2,7 +2,7 @@
   Speech Command Recognizer from Microphone in browser using javascript library tensorflowjs
   
 ## Live Demo
-**[https://bensonruan.com/voice-command-using-microphone/](https://bensonruan.com/voice-command-using-microphone/)**
+**[https://bensonruan.com/speech-recognition-with-tensorflow-js/](https://bensonruan.com/speech-recognition-with-tensorflow-js/)**
 
 ## Installing
 Clone this repository to your local computer
