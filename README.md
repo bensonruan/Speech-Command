@@ -23,3 +23,6 @@ The 20 item vocaulbary, consisting of: 'zero', 'one', 'two', 'three', 'four', 'f
 ## Library
 * [jquery](https://code.jquery.com/jquery-3.3.1.min.js) - JQuery
 * [tensorflowjs](https://github.com/tensorflow/tfjs-models/tree/master/speech-commands) - JavaScript module that enables recognition of spoken commands
+
+## Support me 
+[![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/W7W6METMY)
